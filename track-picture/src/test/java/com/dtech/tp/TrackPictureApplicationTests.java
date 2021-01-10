@@ -1,4 +1,4 @@
-package com.dtech.dm1.tp;
+package com.dtech.tp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

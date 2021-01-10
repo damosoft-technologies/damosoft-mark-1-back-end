@@ -3,18 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.dtech.security.model;
+package com.dtech.tp.services;
 
-import lombok.Builder;
-import lombok.Data;
+import com.dtech.tp.model.DtUserModel;
 
 /**
  *
  * @author h3llmo
  */
-@Data
-@Builder
-public class DtUser {
+public interface DtUserService {
 
-    private String loginName;
+    DtUserModel getUser(final String loginName);
 }

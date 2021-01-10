@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.dtech.security.model;
+package com.dtech.tp.model;
 
-import lombok.Builder;
+import java.io.Serializable;
 import lombok.Data;
 
 /**
@@ -13,8 +13,6 @@ import lombok.Data;
  * @author h3llmo
  */
 @Data
-@Builder
-public class DtUser {
-
+public class DtUserModel implements Serializable{
     private String loginName;
 }

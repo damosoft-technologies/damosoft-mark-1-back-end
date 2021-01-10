@@ -1,7 +1,8 @@
-package com.dtech.dm1.tp;
+package com.dtech.tp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+
 
 @SpringBootApplication
 public class TrackPictureApplication {
